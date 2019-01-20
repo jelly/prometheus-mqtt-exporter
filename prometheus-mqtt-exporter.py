@@ -10,7 +10,7 @@ from prometheus_client import make_wsgi_app, Metric, REGISTRY
 
 
 PORT = 9098
-CONF = '/etc/prometheus/mqtt.yaml'
+CONF = '/etc/prometheus/mqtt.yml'
 CLIENT_ID = 'prometheus-mqtt-exporter'
 KEEPALIVE = 5
 
